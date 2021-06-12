@@ -76,3 +76,10 @@ const Address &Person::getAddress() const {
 void Person::setAddress(const Address &address) {
     Person::address = address;
 }
+
+Person &Person::operator=(const Person &p) {
+    name = p.name;
+    id = p.id;
+    address = p.address;
+    return *this;
+}

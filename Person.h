@@ -33,6 +33,8 @@ public:
     const Address &getAddress() const;
 
     void setAddress(const Address &address);
+
+    Person &operator=(const Person&);
 };
 
 
