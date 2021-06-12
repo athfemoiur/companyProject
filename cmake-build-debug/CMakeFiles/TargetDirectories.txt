@@ -1,0 +1,3 @@
+/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir
