@@ -39,6 +39,8 @@ public:
 
     void setWorkDone(int workDone);
 
+    Employee& operator=(const Employee &);
+
 };
 
 

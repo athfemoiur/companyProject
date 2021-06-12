@@ -68,3 +68,12 @@ int Employee::getWorkDone() const {
 void Employee::setWorkDone(int workDone) {
     Employee::workDone = workDone;
 }
+
+Employee& Employee::operator=(const Employee &e) {
+    Person::operator=(e);
+    hourWork = e.hourWork;
+    salaryPerHour = e.salaryPerHour;
+    workToDo = e.workToDo;
+    workDone = e.workDone;
+    return *this;
+}
