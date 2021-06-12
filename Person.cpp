@@ -52,3 +52,27 @@ istream &operator>>(istream &in, Person &p) {
     cin >> p.address;
     return in;
 }
+
+const string &Person::getName() const {
+    return name;
+}
+
+void Person::setName(const string &name) {
+    Person::name = name;
+}
+
+const string &Person::getId() const {
+    return id;
+}
+
+void Person::setId(const string &id) {
+    Person::id = id;
+}
+
+const Address &Person::getAddress() const {
+    return address;
+}
+
+void Person::setAddress(const Address &address) {
+    Person::address = address;
+}

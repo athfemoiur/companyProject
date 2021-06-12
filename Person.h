@@ -21,6 +21,18 @@ public:
     friend ostream &operator<<(ostream&, const Person&);
 
     friend istream &operator>>(istream&, Person&);
+
+    const string &getName() const;
+
+    void setName(const string &name);
+
+    const string &getId() const;
+
+    void setId(const string &id);
+
+    const Address &getAddress() const;
+
+    void setAddress(const Address &address);
 };
 
 
