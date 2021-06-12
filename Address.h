@@ -18,6 +18,19 @@ public:
 
     friend istream &operator>>(istream &, Address &);
 
+    const string &getCountry() const;
+
+    void setCountry(const string &country);
+
+    const string &getCity() const;
+
+    void setCity(const string &city);
+
+    const string &getStreet() const;
+
+    void setStreet(const string &street);
+
+
 };
 
 

@@ -24,3 +24,27 @@ istream &operator>>(istream &in, Address &a) {
     a.street = street;
     return in;
 }
+
+const string &Address::getCountry() const {
+    return country;
+}
+
+void Address::setCountry(const string &c) {
+    Address::country = c;
+}
+
+const string &Address::getCity() const {
+    return city;
+}
+
+void Address::setCity(const string &c) {
+    Address::city = c;
+}
+
+const string &Address::getStreet() const {
+    return street;
+}
+
+void Address::setStreet(const string &s) {
+    Address::street = s;
+}
