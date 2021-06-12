@@ -41,6 +41,10 @@ public:
 
     Employee& operator=(const Employee &);
 
+    virtual double calculateSalary();
+
+    double efficiency();
+
 };
 
 

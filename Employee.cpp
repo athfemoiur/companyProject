@@ -77,3 +77,12 @@ Employee& Employee::operator=(const Employee &e) {
     workDone = e.workDone;
     return *this;
 }
+
+double Employee::calculateSalary() {
+    double decrease = (double) workDone / workToDo;
+    return salaryPerHour * hourWork * decrease;
+}
+
+double Employee::efficiency() {
+    return (double) workDone / workToDo * 100 / hourWork;
+}
