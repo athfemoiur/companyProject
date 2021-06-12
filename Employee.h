@@ -19,6 +19,26 @@ public:
 
     bool validate(string string1) override;
 
+    friend ostream &operator<<(ostream &os, const Employee &employee);
+
+    friend istream &operator>>(istream &os, Employee &employee);
+
+    int getHourWork() const;
+
+    void setHourWork(int hourWork);
+
+    int getSalaryPerHour() const;
+
+    void setSalaryPerHour(int salaryPerHour);
+
+    int getWorkToDo() const;
+
+    void setWorkToDo(int workToDo);
+
+    int getWorkDone() const;
+
+    void setWorkDone(int workDone);
+
 };
 
 
