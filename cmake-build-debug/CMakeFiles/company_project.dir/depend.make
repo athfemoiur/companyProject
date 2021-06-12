@@ -4,15 +4,25 @@
 CMakeFiles/company_project.dir/Address.cpp.o: ../Address.cpp
 CMakeFiles/company_project.dir/Address.cpp.o: ../Address.h
 
+CMakeFiles/company_project.dir/Boss.cpp.o: ../Address.h
 CMakeFiles/company_project.dir/Boss.cpp.o: ../Boss.cpp
 CMakeFiles/company_project.dir/Boss.cpp.o: ../Boss.h
+CMakeFiles/company_project.dir/Boss.cpp.o: ../Employee.h
+CMakeFiles/company_project.dir/Boss.cpp.o: ../Person.h
 
+CMakeFiles/company_project.dir/Company.cpp.o: ../Address.h
+CMakeFiles/company_project.dir/Company.cpp.o: ../Boss.h
 CMakeFiles/company_project.dir/Company.cpp.o: ../Company.cpp
 CMakeFiles/company_project.dir/Company.cpp.o: ../Company.h
+CMakeFiles/company_project.dir/Company.cpp.o: ../Employee.h
+CMakeFiles/company_project.dir/Company.cpp.o: ../Person.h
 
+CMakeFiles/company_project.dir/Employee.cpp.o: ../Address.h
 CMakeFiles/company_project.dir/Employee.cpp.o: ../Employee.cpp
 CMakeFiles/company_project.dir/Employee.cpp.o: ../Employee.h
+CMakeFiles/company_project.dir/Employee.cpp.o: ../Person.h
 
+CMakeFiles/company_project.dir/Person.cpp.o: ../Address.h
 CMakeFiles/company_project.dir/Person.cpp.o: ../Person.cpp
 CMakeFiles/company_project.dir/Person.cpp.o: ../Person.h
 

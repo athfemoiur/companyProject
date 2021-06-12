@@ -5,7 +5,7 @@
 #include "istream"
 #include "Person.h"
 
-class Employee : Person {
+class Employee : public Person {
 protected:
     int hourWork;
     int salaryPerHour;
