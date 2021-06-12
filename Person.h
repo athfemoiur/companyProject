@@ -17,6 +17,10 @@ public:
     Person(const Person&);
 
     virtual bool validate(string);
+
+    friend ostream &operator<<(ostream&, const Person&);
+
+    friend istream &operator>>(istream&, Person&);
 };
 
 

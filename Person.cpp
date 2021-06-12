@@ -39,3 +39,16 @@ bool Person::validate(string id) {
     }
     return true;
 }
+
+ostream &operator<<(ostream &out, const Person &p) {
+    out << "name : " << p.name << " id : " << p.id << " address : " << p.address;
+
+    return out;
+}
+
+istream &operator>>(istream &in, Person &p) {
+    // take all of the inputs seperated by space
+    in >> p.name >> p.id;
+    cin >> p.address;
+    return in;
+}
