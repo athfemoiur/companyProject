@@ -26,5 +26,10 @@ CMakeFiles/company_project.dir/Person.cpp.o: ../Address.h
 CMakeFiles/company_project.dir/Person.cpp.o: ../Person.cpp
 CMakeFiles/company_project.dir/Person.cpp.o: ../Person.h
 
+CMakeFiles/company_project.dir/main.cpp.o: ../Address.h
+CMakeFiles/company_project.dir/main.cpp.o: ../Boss.h
+CMakeFiles/company_project.dir/main.cpp.o: ../Company.h
+CMakeFiles/company_project.dir/main.cpp.o: ../Employee.h
+CMakeFiles/company_project.dir/main.cpp.o: ../Person.h
 CMakeFiles/company_project.dir/main.cpp.o: ../main.cpp
 

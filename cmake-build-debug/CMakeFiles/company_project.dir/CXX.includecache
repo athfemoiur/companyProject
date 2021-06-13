@@ -14,10 +14,6 @@ istream
 ostream
 /home/athfemoiur/CLionProjects/company-project/ostream
 
-/home/athfemoiur/CLionProjects/company-project/Boss.cpp
-Boss.h
-/home/athfemoiur/CLionProjects/company-project/Boss.h
-
 /home/athfemoiur/CLionProjects/company-project/Boss.h
 ostream
 -
@@ -27,24 +23,20 @@ Employee.h
 /home/athfemoiur/CLionProjects/company-project/Company.cpp
 Company.h
 /home/athfemoiur/CLionProjects/company-project/Company.h
+fstream
+/home/athfemoiur/CLionProjects/company-project/fstream
 
 /home/athfemoiur/CLionProjects/company-project/Company.h
+ostream
+-
 Boss.h
 /home/athfemoiur/CLionProjects/company-project/Boss.h
-
-/home/athfemoiur/CLionProjects/company-project/Employee.cpp
-Employee.h
-/home/athfemoiur/CLionProjects/company-project/Employee.h
 
 /home/athfemoiur/CLionProjects/company-project/Employee.h
 ostream
 -
 istream
 /home/athfemoiur/CLionProjects/company-project/istream
-Person.h
-/home/athfemoiur/CLionProjects/company-project/Person.h
-
-/home/athfemoiur/CLionProjects/company-project/Person.cpp
 Person.h
 /home/athfemoiur/CLionProjects/company-project/Person.h
 

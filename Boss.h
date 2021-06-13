@@ -14,6 +14,8 @@ public:
 
     Boss(const Boss &);
 
+//    Boss(const Employee &);
+
     int getNumberOfEmployees() const;
 
     void setNumberOfEmployees(int numberOfEmployees);

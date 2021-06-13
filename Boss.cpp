@@ -37,3 +37,11 @@ double Boss::calculateSalary() {
     return Employee::calculateSalary() * 1.15;
 }
 
+//Boss::Boss(const Employee &e) : Employee(e) {
+//    numberOfEmployees = 0;
+//}
+
+
+
+
+

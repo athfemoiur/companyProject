@@ -83,6 +83,7 @@ double Employee::calculateSalary() {
     return salaryPerHour * hourWork * decrease;
 }
 
-double Employee::efficiency() {
-    return (double) workDone / workToDo * 100 / hourWork;
+double Employee::efficiency() const {
+    double temp = (double) workDone / workToDo;
+    return temp / hourWork * 100;
 }

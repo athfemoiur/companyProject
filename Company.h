@@ -1,6 +1,7 @@
 #ifndef COMPANY_PROJECT_COMPANY_H
 #define COMPANY_PROJECT_COMPANY_H
 
+#include <ostream>
 #include "Boss.h"
 
 class Company {
@@ -9,7 +10,7 @@ private:
     Boss* boss;
     Employee ** employees;
 public:
-    explicit Company(int, const Boss&);
+    Company(int, const Boss&, Employee**);
 
     Company(const Company&);
 
@@ -27,17 +28,21 @@ public:
 
     void setEmployees(Employee **employees);
 
-    Employee* maxEfficiency();
+    Employee* maxEfficiency() const;
 
-    double averageEfficiency();
+    double averageEfficiency() const;
 
     void changeBoss();
 
-    void gift();
+    void gift() const;
 
     void payForService();
 
     bool isEnoughBudget();
+
+    void writeOnFile() const;
+
+    friend ostream &operator<<(ostream &os, const Company &company);
 
 
 };

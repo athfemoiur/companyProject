@@ -43,7 +43,7 @@ public:
 
     virtual double calculateSalary();
 
-    double efficiency();
+    double efficiency() const;
 
 };
 
