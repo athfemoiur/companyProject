@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/athfemoiur/CLionProjects/company-project/Address.h
+D:/cpp/companyProject/Address.h
 iostream
-/home/athfemoiur/CLionProjects/company-project/iostream
+D:/cpp/companyProject/iostream
 istream
-/home/athfemoiur/CLionProjects/company-project/istream
+D:/cpp/companyProject/istream
 ostream
-/home/athfemoiur/CLionProjects/company-project/ostream
+D:/cpp/companyProject/ostream
 
-/home/athfemoiur/CLionProjects/company-project/Boss.h
+D:/cpp/companyProject/Boss.h
 ostream
 -
 Employee.h
-/home/athfemoiur/CLionProjects/company-project/Employee.h
+D:/cpp/companyProject/Employee.h
 
-/home/athfemoiur/CLionProjects/company-project/Company.cpp
-Company.h
-/home/athfemoiur/CLionProjects/company-project/Company.h
-fstream
-/home/athfemoiur/CLionProjects/company-project/fstream
-
-/home/athfemoiur/CLionProjects/company-project/Company.h
+D:/cpp/companyProject/Company.h
 ostream
 -
 Boss.h
-/home/athfemoiur/CLionProjects/company-project/Boss.h
+D:/cpp/companyProject/Boss.h
 
-/home/athfemoiur/CLionProjects/company-project/Employee.h
+D:/cpp/companyProject/Employee.h
 ostream
 -
 istream
-/home/athfemoiur/CLionProjects/company-project/istream
+D:/cpp/companyProject/istream
 Person.h
-/home/athfemoiur/CLionProjects/company-project/Person.h
+D:/cpp/companyProject/Person.h
 
-/home/athfemoiur/CLionProjects/company-project/Person.h
+D:/cpp/companyProject/Person.h
 Address.h
-/home/athfemoiur/CLionProjects/company-project/Address.h
+D:/cpp/companyProject/Address.h
 iostream
-/home/athfemoiur/CLionProjects/company-project/iostream
+D:/cpp/companyProject/iostream
 ostream
-/home/athfemoiur/CLionProjects/company-project/ostream
+D:/cpp/companyProject/ostream
 istream
-/home/athfemoiur/CLionProjects/company-project/istream
+D:/cpp/companyProject/istream
+
+D:/cpp/companyProject/main.cpp
+iostream
+-
+Company.h
+D:/cpp/companyProject/Company.h
 

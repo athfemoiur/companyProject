@@ -12,12 +12,13 @@ protected:
     int workToDo;
     int workDone;
 public:
-    explicit Employee(const string & = "", const string & = "90*11111", const Address & = Address(), int = 0, int = 0,
-                      int = 0, int = 0);
+    Employee(const string &, const string &, const Address &, int, int, int, int);
+
+    Employee() = default;
 
     Employee(const Employee &);
 
-    bool validate(string string1) override;
+    bool validate(string string1);
 
     friend ostream &operator<<(ostream &os, const Employee &employee);
 
@@ -39,9 +40,9 @@ public:
 
     void setWorkDone(int workDone);
 
-    Employee& operator=(const Employee &);
+    Employee operator=(const Employee &);
 
-    virtual double calculateSalary();
+    double calculateSalary() const;
 
     double efficiency() const;
 

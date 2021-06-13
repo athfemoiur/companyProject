@@ -1,15 +1,13 @@
 #include "Company.h"
 #include "fstream"
+#include "iostream"
 
-Company::Company(int budget, const Boss &boss, Employee **employees) {
-    this->budget = budget;
-    this->boss = new Boss(boss);
-    this->employees = new Employee *[boss.getNumberOfEmployees()];
-    for (int i = 0; i < boss.getNumberOfEmployees(); ++i) {
-        this->employees[i] = new Employee(*employees[i]);
+Company::Company(int budget, Boss* b, Employee **emp) : budget(budget) {
+    boss = new Boss(*b);
+    employees = new Employee *[boss->getNumberOfEmployees()];
+    for (int i = 0; i < boss->getNumberOfEmployees(); ++i) {
+        employees[i] = new Employee(*emp[i]);
     }
-//    gift();
-//    payForService();
 }
 
 Company::Company(const Company &c) {
@@ -41,7 +39,7 @@ Boss Company::getBoss() const {
     return *boss;
 }
 
-void Company::setBoss(Boss boss) {
+void Company::setBoss(Boss &boss) {
     *this->boss = boss;
 }
 
@@ -71,12 +69,17 @@ double Company::averageEfficiency() const {
 }
 
 void Company::changeBoss() {
-    if (boss->efficiency() < 40) {
+
+    if (boss->efficiency() < 40.0) {
         Employee *max = maxEfficiency();
         for (int i = 0; i < boss->getNumberOfEmployees(); ++i) {
             if (employees[i]->efficiency() == max->efficiency()) {
-                int n = boss->getNumberOfEmployees();
-
+                int numberOfEmployee = boss->getNumberOfEmployees();
+                Employee *temp = boss;
+                boss = static_cast<Boss *>(employees[i]);
+                employees[i] = temp;
+                boss->setNumberOfEmployees(numberOfEmployee);
+                break;
             }
         }
     }
@@ -149,5 +152,18 @@ ostream &operator<<(ostream &os, const Company &company) {
     }
     return os;
 }
+
+istream &operator>>(istream &in, Company &company) {
+    in >> company.budget;
+    in >> (*company.boss);
+    for (int i = 0; i < company.boss->getNumberOfEmployees(); ++i) {
+        in >> (*company.employees[i]);
+    }
+    return in;
+}
+
+
+
+
 
 

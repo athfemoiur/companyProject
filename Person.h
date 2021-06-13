@@ -12,7 +12,9 @@ protected:
     string id;
     Address address;
 public:
-    explicit Person(const string& = "", const string & = "90a11111", const Address& = Address());
+    Person(const string&, const string &, const Address&);
+
+    Person() = default;
 
     Person(const Person&);
 

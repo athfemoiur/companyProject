@@ -2,15 +2,17 @@
 
 Employee::Employee(const string &name, const string &id, const Address &address, int h, int ph, int wtd, int wd) :
         Person(name, id, address) {
-    if (!validate(id)) {
-        cout << "Invalid input";
-        exit(1);
-    }
     this->hourWork = h;
     this->salaryPerHour = ph;
     this->workToDo = wtd;
     this->workDone = wd;
+    if (!validate(id)) {
+        cout << "Invalid input";
+        exit(1);
+    }
+
 }
+
 
 bool Employee::validate(string id) {
     if (id[2] != '*')
@@ -26,8 +28,8 @@ Employee::Employee(const Employee &e) : Person(e) {
 }
 
 ostream &operator<<(ostream &os, const Employee &employee) {
-    os << static_cast<const Person &>(employee) << endl << "hour work : " << employee.hourWork << "salary per hour : "
-       << employee.salaryPerHour << "work to do :  " << employee.workToDo << "work done : " << employee.workDone;
+    os << static_cast<const Person &>(employee) << endl << " hour work : " << employee.hourWork << " salary per hour : "
+       << employee.salaryPerHour << " work to do :  " << employee.workToDo << " work done : " << employee.workDone;
     return os;
 }
 
@@ -69,7 +71,7 @@ void Employee::setWorkDone(int workDone) {
     Employee::workDone = workDone;
 }
 
-Employee& Employee::operator=(const Employee &e) {
+Employee Employee::operator=(const Employee &e) {
     Person::operator=(e);
     hourWork = e.hourWork;
     salaryPerHour = e.salaryPerHour;
@@ -78,7 +80,7 @@ Employee& Employee::operator=(const Employee &e) {
     return *this;
 }
 
-double Employee::calculateSalary() {
+double Employee::calculateSalary() const {
     double decrease = (double) workDone / workToDo;
     return salaryPerHour * hourWork * decrease;
 }

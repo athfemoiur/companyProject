@@ -1,13 +1,13 @@
 #include "Person.h"
 
 Person::Person(const string &name, const string &id, const Address &address) {
+    this->name = name;
+    this->id = id;
+    this->address = address;
     if (!validate(id)) {
         cout << "Invalid id";
         exit(1);
     }
-    this->name = name;
-    this->id = id;
-    this->address = address;
 }
 
 Person::Person(const Person &p) {
@@ -83,3 +83,4 @@ Person &Person::operator=(const Person &p) {
     address = p.address;
     return *this;
 }
+

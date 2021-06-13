@@ -1,8 +1,7 @@
 #include "Boss.h"
 
 Boss::Boss(const string &name, const string &id, const Address &address, int h, int ph, int wtd, int wd, int n)
-        : Employee(name, id, address, h, ph, wtd, wd) {
-    this->numberOfEmployees = n;
+        : Employee(name, id, address, h, ph, wtd, wd) , numberOfEmployees(n) {
 }
 
 Boss::Boss(const Boss &b) : Employee(b) {
@@ -33,15 +32,6 @@ Boss &Boss::operator=(const Boss &b) {
     return *this;
 }
 
-double Boss::calculateSalary() {
+double Boss::calculateSalary() const {
     return Employee::calculateSalary() * 1.15;
 }
-
-//Boss::Boss(const Employee &e) : Employee(e) {
-//    numberOfEmployees = 0;
-//}
-
-
-
-
-

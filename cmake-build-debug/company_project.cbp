@@ -8,114 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug"/>
+				<Option working_dir="D:/cpp/companyProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="company_project">
-				<Option output="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/company_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug"/>
+				<Option output="D:/cpp/companyProject/cmake-build-debug/company_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/companyProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 company_project"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 company_project"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="company_project/fast">
-				<Option output="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/company_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/athfemoiur/CLionProjects/company-project/cmake-build-debug"/>
+				<Option output="D:/cpp/companyProject/cmake-build-debug/company_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/companyProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2020.3.2/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 company_project/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 company_project/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/cpp/companyProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/cpp/companyProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/MinGW/bin/mingw32-make.exe -f &quot;D:/cpp/companyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Address.cpp">
+		<Unit filename="D:/cpp/companyProject/Address.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Address.h">
+		<Unit filename="D:/cpp/companyProject/Address.h">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Boss.cpp">
+		<Unit filename="D:/cpp/companyProject/Boss.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Boss.h">
+		<Unit filename="D:/cpp/companyProject/Boss.h">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Company.cpp">
+		<Unit filename="D:/cpp/companyProject/Company.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Company.h">
+		<Unit filename="D:/cpp/companyProject/Company.h">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Employee.cpp">
+		<Unit filename="D:/cpp/companyProject/Employee.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Employee.h">
+		<Unit filename="D:/cpp/companyProject/Employee.h">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Person.cpp">
+		<Unit filename="D:/cpp/companyProject/Person.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/Person.h">
+		<Unit filename="D:/cpp/companyProject/Person.h">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/main.cpp">
+		<Unit filename="D:/cpp/companyProject/main.cpp">
 			<Option target="company_project"/>
 		</Unit>
-		<Unit filename="/home/athfemoiur/CLionProjects/company-project/CMakeLists.txt">
+		<Unit filename="D:/cpp/companyProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

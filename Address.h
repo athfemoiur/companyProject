@@ -12,7 +12,9 @@ private:
     string city;
     string street;
 public:
-    explicit Address(string="" , string="" , string="" );
+    Address(string , string , string );
+
+    Address() = default;
 
     friend ostream &operator<<(ostream &, const Address &);
 

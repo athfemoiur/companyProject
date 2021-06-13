@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/company_project.dir/main.cpp.o CMakeFiles/company_project.dir/Address.cpp.o CMakeFiles/company_project.dir/Boss.cpp.o CMakeFiles/company_project.dir/Company.cpp.o CMakeFiles/company_project.dir/Employee.cpp.o CMakeFiles/company_project.dir/Person.cpp.o -o company_project 
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\company_project.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\MinGW\bin\ar.exe cr CMakeFiles\company_project.dir/objects.a @CMakeFiles\company_project.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\MinGW\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\company_project.dir/objects.a -Wl,--no-whole-archive  -o company_project.exe -Wl,--out-implib,libcompany_project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\company_project.dir\linklibs.rsp

@@ -9,12 +9,10 @@ class Boss : public Employee {
 private:
     int numberOfEmployees;
 public:
-    explicit Boss(const string & = "", const string & = "90*11111", const Address & = Address(), int = 0, int = 0,
-                  int = 0, int = 0, int= 0);
+    Boss(const string &, const string &, const Address &, int, int,
+         int, int, int);
 
     Boss(const Boss &);
-
-//    Boss(const Employee &);
 
     int getNumberOfEmployees() const;
 
@@ -26,7 +24,7 @@ public:
 
     Boss &operator=(const Boss &);
 
-    double calculateSalary() override;
+    double calculateSalary() const;
 };
 
 #endif //COMPANY_PROJECT_BOSS_H

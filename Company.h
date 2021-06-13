@@ -10,7 +10,7 @@ private:
     Boss* boss;
     Employee ** employees;
 public:
-    Company(int, const Boss&, Employee**);
+    Company(int, Boss *, Employee**);
 
     Company(const Company&);
 
@@ -22,7 +22,7 @@ public:
 
     Boss getBoss() const;
 
-    void setBoss(Boss boss);
+    void setBoss(Boss &boss);
 
     Employee **getEmployees() const;
 
@@ -43,6 +43,9 @@ public:
     void writeOnFile() const;
 
     friend ostream &operator<<(ostream &os, const Company &company);
+
+    friend istream &operator>>(istream &is, Company &company);
+
 
 
 };

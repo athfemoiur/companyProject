@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/athfemoiur/CLionProjects/company-project/Address.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/Address.cpp.o"
-  "/home/athfemoiur/CLionProjects/company-project/Boss.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/Boss.cpp.o"
-  "/home/athfemoiur/CLionProjects/company-project/Company.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/Company.cpp.o"
-  "/home/athfemoiur/CLionProjects/company-project/Employee.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/Employee.cpp.o"
-  "/home/athfemoiur/CLionProjects/company-project/Person.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/Person.cpp.o"
-  "/home/athfemoiur/CLionProjects/company-project/main.cpp" "/home/athfemoiur/CLionProjects/company-project/cmake-build-debug/CMakeFiles/company_project.dir/main.cpp.o"
+  "D:/cpp/companyProject/Address.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/Address.cpp.obj"
+  "D:/cpp/companyProject/Boss.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/Boss.cpp.obj"
+  "D:/cpp/companyProject/Company.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/Company.cpp.obj"
+  "D:/cpp/companyProject/Employee.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/Employee.cpp.obj"
+  "D:/cpp/companyProject/Person.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/Person.cpp.obj"
+  "D:/cpp/companyProject/main.cpp" "D:/cpp/companyProject/cmake-build-debug/CMakeFiles/company_project.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
