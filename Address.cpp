@@ -12,7 +12,7 @@ ostream &operator<<(ostream &out, const Address &a) {
 }
 
 istream &operator>>(istream &in, Address &a) {
-    // take each string line by line or seperated by space
+    // take each string line by line or separated by space
     string country;
     in >> country;
     string city;

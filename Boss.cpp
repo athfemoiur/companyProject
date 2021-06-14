@@ -32,6 +32,6 @@ Boss &Boss::operator=(const Boss &b) {
     return *this;
 }
 
-double Boss::calculateSalary() const {
+double Boss::calculateSalary() const { // same as the Employee class, only we need * 1.15 because it's boss
     return Employee::calculateSalary() * 1.15;
 }

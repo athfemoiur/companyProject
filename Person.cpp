@@ -4,7 +4,7 @@ Person::Person(const string &name, const string &id, const Address &address) {
     this->name = name;
     this->id = id;
     this->address = address;
-    if (!validate(id)) {
+    if (!validate(id)) { // if the id was invalid exit the program
         cout << "Invalid id";
         exit(1);
     }
@@ -32,7 +32,7 @@ bool Person::validate(string id) {
         if ((int) id[i] >= 48 && (int) id[i] <= 57)
             return false;
     }
-    // check the last 5 chars
+    // check the last 5 chars to be between 4 and 6
     for (int j = i; j <= len; ++j) {
         if (id[j] >= '4' && id[j] <= '6')
             return false;

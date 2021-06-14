@@ -6,7 +6,7 @@ Employee::Employee(const string &name, const string &id, const Address &address,
     this->salaryPerHour = ph;
     this->workToDo = wtd;
     this->workDone = wd;
-    if (!validate(id)) {
+    if (!validate(id)) { // if the id was invalid exit the program
         cout << "Invalid input";
         exit(1);
     }
@@ -80,7 +80,7 @@ Employee Employee::operator=(const Employee &e) {
     return *this;
 }
 
-double Employee::calculateSalary() const {
+double Employee::calculateSalary() const { // salary is salary per hour * hour work then we decrease based on the work
     double decrease = (double) workDone / workToDo;
     return salaryPerHour * hourWork * decrease;
 }

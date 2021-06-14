@@ -14,7 +14,7 @@ protected:
 public:
     Person(const string&, const string &, const Address&);
 
-    Person() = default;
+    Person() = default; // default constructor
 
     Person(const Person&);
 
