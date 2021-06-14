@@ -28,7 +28,7 @@ Employee::Employee(const Employee &e) : Person(e) {
 }
 
 ostream &operator<<(ostream &os, const Employee &employee) {
-    os << static_cast<const Person &>(employee) << endl << " hour work : " << employee.hourWork << " salary per hour : "
+    os << static_cast<const Person &>(employee) << endl << "hour work : " << employee.hourWork << " salary per hour : "
        << employee.salaryPerHour << " work to do :  " << employee.workToDo << " work done : " << employee.workDone;
     return os;
 }

@@ -2,15 +2,13 @@
 #include "fstream"
 #include "iostream"
 
-Company::Company(int budget, Boss* b, Employee **emp) : budget(budget) {
+Company::Company(int budget, Boss *b, Employee **emp) : budget(budget) {
     // allocate memory for boss and all of the employees
     boss = new Boss(*b);
     employees = new Employee *[boss->getNumberOfEmployees()];
     for (int i = 0; i < boss->getNumberOfEmployees(); ++i) {
         employees[i] = new Employee(*emp[i]);
     }
-//    gift(); // call these two methods here to avoid calling them multiple times
-//    payForService();
 }
 
 Company::Company(const Company &c) {
@@ -90,7 +88,7 @@ void Company::changeBoss() {
     }
 }
 
-void Company::gift() const {
+void Company::gift()  {
     Employee *max = maxEfficiency();
     for (int i = 0; i < boss->getNumberOfEmployees(); ++i) {
         if (stoi(employees[i]->getId().substr(0, 2)) < 90) // check if the first two chars of id is < 90
@@ -122,7 +120,10 @@ bool Company::isEnoughBudget() {
     return false;
 }
 
-void Company::writeOnFile() const {
+void Company::writeOnFile()  {
+    // first of all add gifts and pay for services
+    gift();
+    payForService();
     fstream f("data.txt", ios::out);
     f << boss->getName() << " " << boss->getId() << " " << boss->efficiency() << " " <<
       boss->calculateSalary() << endl;
@@ -152,9 +153,11 @@ ostream &operator<<(ostream &os, const Company &company) {
                 swap(newEmployees[j], newEmployees[j - 1]);
         }
     }
-    os << *company.boss << endl;
+    os << "Boss : " << endl << *company.boss << endl << "-------------------------------------\n" << "Employees :"
+       << endl;
     for (int i = 0; i < n; ++i) {
-        os << newEmployees[i] << endl;
+        os << newEmployees[i] << endl << "----------------------------------------------------------------------"
+           << endl;
     }
     return os;
 }

@@ -2,7 +2,7 @@
 #include "Company.h"
 
 int main() {
-    Boss *boss = new Boss("Amir Bonakdar", "85*am12832", *(new Address("Iran", "Tehran", "Tehranpars")), 5, 10000, 20,
+    Boss *boss = new Boss("Amir Bonakdar", "85*am12832", *(new Address("Iran", "Tehran", "Tehranpars")), 8, 10000, 20,
                           25, 10);
 
     Employee **employee = new Employee *[boss->getNumberOfEmployees()];
@@ -18,13 +18,31 @@ int main() {
                                12);
     employee[6] = new Employee("Bahram Sedighi", "98*97320", *(new Address("Iran", "Shiraz", "Fattah")), 4, 3000, 10,
                                2);
-    employee[7] = new Employee("amir", "99*rt11320", *(new Address("Iran", "Shiraz", "Fattah")), 3, 6000, 12, 11);
+    employee[7] = new Employee("Amirhossein niazi", "99*rt11320", *(new Address("Iran", "Shiraz", "Fattah")), 3, 6000, 12, 11);
     employee[8] = new Employee("Amirhosein Momen", "94*a01203", *(new Address("Iran", "Shiraz", "Fattah")), 8, 15000,
                                25, 19);
-    employee[9] = new Employee("Mohammad Rad", "87*ox19280", *(new Address("Iran", "Shiraz", "Fattah")), 2, 4000, 30,
+    employee[9] = new Employee("Negar Azad", "87*ox19280", *(new Address("Iran", "Shiraz", "Fattah")), 2, 4000, 30,
                                25);
     Company company(3000000, boss, employee);
+
     cout << company;
+
+    cout << "Employee with max efficiency : \n";
+    cout << *company.maxEfficiency() << endl << "--------------------------------------\n";
+
+    string enoughBudget = (company.isEnoughBudget()) ? "There is enough budget" : "There is not enough budget";
+
+    cout << enoughBudget << endl << endl;
+
     company.changeBoss();
+
+    cout << "Company after changing boss :\n\n";
+
+    company.changeBoss();
+
+    cout << company;
+
+    company.writeOnFile();
+
     return 0;
 }

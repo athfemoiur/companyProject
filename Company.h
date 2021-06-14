@@ -34,13 +34,13 @@ public:
 
     void changeBoss();
 
-    void gift() const;
+    void gift();
 
     void payForService();
 
     bool isEnoughBudget();
 
-    void writeOnFile() const;
+    void writeOnFile();
 
     friend ostream &operator<<(ostream &os, const Company &company);
 
