@@ -14,17 +14,33 @@ D:/cpp/companyProject/istream
 ostream
 D:/cpp/companyProject/ostream
 
+D:/cpp/companyProject/Boss.cpp
+Boss.h
+D:/cpp/companyProject/Boss.h
+
 D:/cpp/companyProject/Boss.h
 ostream
 -
 Employee.h
 D:/cpp/companyProject/Employee.h
 
+D:/cpp/companyProject/Company.cpp
+Company.h
+D:/cpp/companyProject/Company.h
+fstream
+D:/cpp/companyProject/fstream
+iostream
+D:/cpp/companyProject/iostream
+
 D:/cpp/companyProject/Company.h
 ostream
 -
 Boss.h
 D:/cpp/companyProject/Boss.h
+
+D:/cpp/companyProject/Employee.cpp
+Employee.h
+D:/cpp/companyProject/Employee.h
 
 D:/cpp/companyProject/Employee.h
 ostream

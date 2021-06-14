@@ -71,7 +71,7 @@ void Employee::setWorkDone(int workDone) {
     Employee::workDone = workDone;
 }
 
-Employee Employee::operator=(const Employee &e) {
+Employee& Employee::operator=(const Employee &e) {
     Person::operator=(e);
     hourWork = e.hourWork;
     salaryPerHour = e.salaryPerHour;

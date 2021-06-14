@@ -1,7 +1,6 @@
 #ifndef COMPANY_PROJECT_BOSS_H
 #define COMPANY_PROJECT_BOSS_H
 
-
 #include <ostream>
 #include "Employee.h"
 

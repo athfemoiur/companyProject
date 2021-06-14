@@ -40,7 +40,7 @@ public:
 
     void setWorkDone(int workDone);
 
-    Employee operator=(const Employee &);
+    Employee& operator=(const Employee &);
 
     double calculateSalary() const;
 
